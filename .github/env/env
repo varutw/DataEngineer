@@ -1,3 +1,10 @@
 dataset_id: pipeline
 table_name: bitcoin_price
 url: http://api.coindesk.com/v1/bpi/currentprice/THB.json
+
+MYSQL_HOST: '34.136.184.58'
+MYSQL_PORT: 3306             
+MYSQL_USER: 'r2de2'
+MYSQL_PASSWORD: 'I_Love_Data_Engineer'
+MYSQL_DB: 'r2de2'
+MYSQL_CHARSET: 'utf8mb4'
