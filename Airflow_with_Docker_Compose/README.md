@@ -41,5 +41,5 @@ docker build -t apache/airflow:2.2.3
 4. Re-initialize the docker-compose
 ```
 docker-compose up airflow-init
-
+```
 
