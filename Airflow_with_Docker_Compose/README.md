@@ -1,7 +1,7 @@
 # Airflow_with_Docker_Compose
-This file explains the usage of Airflow with docker-compose.
+This file explains the usage of Airflow with docker-compose, which is an interesting choice for low-cost data engineering.
 
-Airflow is a data pipeline orchestration tool. Normally, I would prefer using Airflow with Google Cloud Composer. However, Cloud Composer can be really expensive and may be not suitable for small companies. Alternatively, Airflow can be hosted using Docker compose in a server, either on-premise or cloud services, such as AWS EC2 or Google Cloud Compute Engine. 
+Airflow is a data pipeline orchestration tool. Normally, I would prefer using Airflow with Google Cloud Composer. However, Cloud Composer can be really expensive and may be not suitable for small companies. Alternatively, Airflow can be hosted using Docker compose in a server, either on-premise or cloud services, such as AWS EC2 or Google Cloud Compute Engine. The advantage is that it greatly reduces the cost of using a fully managed data workflow orchestration service, such as Google Cloud Composer or Astronomer. The downside is that a data engineer must have some knowledge of using and maintaining Docker compose container.
 
 ## Installation
 Procedures for installing Airflow with Airflow with docker-compose can be found in [https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html]. In this case, Airflow is installed in '~'
