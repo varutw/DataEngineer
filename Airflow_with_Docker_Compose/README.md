@@ -15,7 +15,7 @@ The example DAGs to demonstrate Airflow with Docker compose is in the file named
 ![image5](https://user-images.githubusercontent.com/45530179/188531314-f8cc1ba3-e7fe-41a6-b0d6-1c5311700537.png)
 
 *__get_superstore_data__ Download Superstore dataset from Google drive link and save to Google Cloud Storage (GCS) bucket. 
-*__GCS_to_BigQuery__ Load dataset from GCS to Google BigQuery. 
+*__GCS_to_BigQuery__ Load dataset from GCS to Google BigQuery. \
 *__create_view__ Create BigQuery view to find the longest shipping duration. 
 
 ## Running Airflow
