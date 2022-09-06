@@ -18,11 +18,6 @@ The example DAGs to demonstrate Airflow with Docker compose is in the file named
 * __GCS_to_BigQuery__ Load dataset from GCS to Google BigQuery. 
 * __create_view__ Create BigQuery view to find the longest shipping duration by performing SQL query. 
 
-The view which is the result of SQL query is shown below.
-
-![image6](https://user-images.githubusercontent.com/45530179/188534850-f31b1d34-bd14-4de5-ad1d-606eeffe05f6.png)
-
-
 ## Running Airflow
 The Airflow dags can operate only if Airflow docker-compose is up. If it is not up, go to the airflow folder first.
 ```
