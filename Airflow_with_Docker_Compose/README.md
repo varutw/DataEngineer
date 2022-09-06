@@ -9,6 +9,12 @@ Procedures for installing Airflow with Airflow with docker-compose can be found 
 ## Location of dag file
 Any dedired modification must be done in the dag file in the '~/airflow/dags/dags', or the change will not take any effect.
 
+# Example DAGs
+The example DAGs to demonstrate Airflow with Docker compose is in the file named 'Airflow.py'. The dependencies are as following:
+
+![image5](https://user-images.githubusercontent.com/45530179/188531314-f8cc1ba3-e7fe-41a6-b0d6-1c5311700537.png)
+
+
 ## Running Airflow
 The Airflow dags can operate only if Airflow docker-compose is up. If it is not up, go to the airflow folder first.
 ```
