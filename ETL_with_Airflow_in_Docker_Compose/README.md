@@ -1,5 +1,5 @@
-# Airflow_with_Docker_Compose
-This file explains the usage of Airflow with docker-compose, which is an interesting choice for low-cost data engineering.
+# ETL with Airflow in Docker Compose
+This file explains ETL process with the usage of Airflow in docker-compose, which is an interesting choice for low-cost data engineering.
 
 Airflow is a data pipeline orchestration tool. Normally, I would prefer using Airflow with Google Cloud Composer. However, Cloud Composer can be really expensive and may be not suitable for small companies. Alternatively, Airflow can be hosted using Docker compose in a server, either on-premise or cloud services, such as AWS EC2 or Google Cloud Compute Engine. The advantage is that it greatly reduces the cost of using a fully managed data workflow orchestration service, such as Google Cloud Composer or Astronomer. The downside is that a data engineer must have some knowledge of using and maintaining Docker compose container.
 
@@ -14,9 +14,25 @@ The example DAGs to demonstrate Airflow with Docker compose is in the file named
 
 ![image5](https://user-images.githubusercontent.com/45530179/188531314-f8cc1ba3-e7fe-41a6-b0d6-1c5311700537.png)
 
-* __get_superstore_data__ Download Superstore dataset from Google drive link and save to Google Cloud Storage (GCS) bucket. 
+* __get_superstore_data__ Download Superstore dataset from Google drive link and save to Google Cloud 
 * __GCS_to_BigQuery__ Load dataset from GCS to Google BigQuery. 
-* __create_view__ Create BigQuery view to find the longest shipping duration by performing SQL query. 
+* __create_view__ Create BigQuery view to find the longest shipping duration by performing the SQL query:
+```
+WITH converted
+AS
+  (
+         SELECT *,
+                safe.parse_date('%m/%d/%Y',REPLACE(order_date,'2116','2016')) AS new_order_date,
+                safe.parse_date('%m/%d/%Y',REPLACE(ship_date,'2055','2015'))  AS new_ship_date
+         FROM   `ever-medial-data-engineer.ever_medial_de_dataset.ever_medial_de_table` )
+         
+  SELECT   *,
+           date_diff(new_ship_date,new_order_date,day) AS duration
+  FROM     converted
+  WHERE    new_ship_date>new_order_date
+  ORDER BY duration DESC
+  LIMIT    5
+```
 
 ## Running Airflow
 The Airflow dags can operate only if Airflow docker-compose is up. If it is not up, go to the airflow folder first.
