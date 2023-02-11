@@ -7,7 +7,7 @@ Please find my Linkedin link [here](https://www.linkedin.com/in/varut-wiseschind
 
 This repository shows my projects related to data engineering. The Technologies and tools in the data engineering world change very fast, so I have to keep track on it! I hope you like them. Nice to meet you!
 
-![1634628440193 (1)](https://user-images.githubusercontent.com/45530179/218283970-0bfe39cb-8a58-46d4-bac9-1ebb2d001b46.jpeg)
+![profile_picture](https://user-images.githubusercontent.com/45530179/218284170-bc7a5dc8-0e49-48a2-b9dc-780c90528f1d.jpg)
 
 
 The main contents in this repository are as following:
