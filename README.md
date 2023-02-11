@@ -14,7 +14,7 @@ The main contents in this repository are as following:
 
 ![apache airflow](https://user-images.githubusercontent.com/45530179/218283892-470a8374-3f68-4e80-8670-0107222b1a3e.png)
 ![apache spark](https://user-images.githubusercontent.com/45530179/218284514-6ebd30fe-ed9d-4d0d-800b-a44ec87f7283.png)
-![python](https://user-images.githubusercontent.com/45530179/218284587-e55b21e5-d56f-4089-8483-036e79b3986a.jpg)
+![python](https://user-images.githubusercontent.com/45530179/218284733-47326023-7c10-4df6-adfd-bf178a03632b.jpg)
 ![google cloud](https://user-images.githubusercontent.com/45530179/218284646-4e675586-1d2a-4fab-a8ea-fdefff0d0581.png)
 
 * __ETL_with_Airflow_in_Docker_Compose__ a folder containing the usage of Airflow with docker-compose
