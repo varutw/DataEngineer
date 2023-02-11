@@ -10,6 +10,6 @@ This repository shows my projects related to data engineering. Technology and to
 The main contents in this repository are as following:
 * __Airflow_with_Docker_Compose__ a folder containing the usage of Airflow with docker-compose
 * __Data_Cleansing_with_Spark__ a notebook file that shows the processing of data cleansing with Pyspark
-* __Data_Collection__ a notebook file that shows the process of data collection, both from internal database and external data via API
+* __Data_Collection_with_Python__ a notebook file that shows the process of data collection, both from internal database and external data via API
 * __Intermediate Python__ a folder containing intermideiate-level Python codes
 
