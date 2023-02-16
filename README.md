@@ -28,4 +28,4 @@ The main contents in this repository are as following:
 
 * __simple_pipeline_with_GCP__ creating a data pipeline in Google Cloud Platform (GCP) with Google Cloud Function.
 
-* __dbt-learn__ materials of dbt Fundamental course that I learnt [here] (https://github.com/varutw/dbt-learn)
+* __dbt-learn__ materials of dbt Fundamental course that I learnt [here](https://github.com/varutw/dbt-learn)
