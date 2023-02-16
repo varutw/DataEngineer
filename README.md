@@ -16,6 +16,7 @@ The main contents in this repository are as following:
 ![apache spark](https://user-images.githubusercontent.com/45530179/218284514-6ebd30fe-ed9d-4d0d-800b-a44ec87f7283.png)
 ![python](https://user-images.githubusercontent.com/45530179/218284733-47326023-7c10-4df6-adfd-bf178a03632b.jpg)
 ![google cloud](https://user-images.githubusercontent.com/45530179/218284646-4e675586-1d2a-4fab-a8ea-fdefff0d0581.png)
+![dbt](https://user-images.githubusercontent.com/45530179/219301754-43e0dfbd-f280-4fb1-bd91-23e98dc5cb49.png)
 
 * __ETL_with_Airflow_in_Docker_Compose__ a folder containing the usage of Airflow with docker-compose
 
@@ -26,3 +27,5 @@ The main contents in this repository are as following:
 * __Intermediate Python__ a folder containing intermediate-level Python codes
 
 * __simple_pipeline_with_GCP__ creating a data pipeline in Google Cloud Platform (GCP) with Google Cloud Function.
+
+* __dbt-learn__ materials of dbt Fundamental course that I learnt [here] (https://github.com/varutw/dbt-learn)
